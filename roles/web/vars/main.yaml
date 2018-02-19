@@ -1,5 +1,7 @@
 # roles/httpd/defaults/main.yml
 ---
+# Config
+httpd_config: /etc/httpd/conf/httpd.conf
 
 # Scripting support
 httpd_scripting: 'none'
