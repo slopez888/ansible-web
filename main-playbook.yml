@@ -1,0 +1,8 @@
+---
+# Setup web and app tiers
+- name: setup web tier
+  hosts: webservers
+  become: yes
+  roles:
+    - web
+    - app
