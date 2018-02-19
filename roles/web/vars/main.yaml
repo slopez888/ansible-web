@@ -7,7 +7,7 @@ httpd_config: /etc/httpd/conf/httpd.conf
 httpd_scripting: 'none'
 
 # Main configuration
-httpd_ServerRoot: '/usr/share/tomcat/webapps/ROOT'
+httpd_ServerRoot: '/etc/httpd'
 httpd_Listen: 80
 httpd_ServerAdmin: root@localhost
 httpd_ServerTokens: Prod
