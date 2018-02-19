@@ -11,4 +11,4 @@
     name: "{{ item }}" 
     state: latest
   with_items:
-    - httpies
+    - httpie
