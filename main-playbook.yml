@@ -1,6 +1,7 @@
 ---
-# Setup web and app tiers
-- name: setup web tier
+# This playbook deploys a simple web application
+
+- name: setup web application
   hosts: webservers
   become: yes
   roles:
